@@ -494,6 +494,7 @@ function MarketplaceView() {
         
         {/* Left Card - Buy & Sell */}
         <div className="lg:col-span-7 bg-[#A0B299] rounded-[2rem] p-8 flex flex-col justify-between min-h-[400px] relative overflow-hidden shadow-sm">
+          <img src="https://images.unsplash.com/photo-1531058020387-3be344556be6?auto=format&fit=crop&q=80&w=1200" alt="Marketplace Background" className="absolute inset-0 w-full h-full object-cover opacity-30 mix-blend-multiply pointer-events-none" referrerPolicy="no-referrer" />
           <div className="flex justify-between items-start relative z-10">
             <span className="text-xs font-bold uppercase tracking-widest text-[#185B3A]">Marketplace</span>
             <button className="bg-white text-stone-900 px-4 py-2 rounded-full text-sm font-bold flex items-center gap-2 hover:bg-stone-100 transition-colors shadow-sm">
